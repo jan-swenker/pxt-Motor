@@ -77,7 +77,7 @@ namespace MotorDriver {
 	
     //% blockId=MotorEnable
     //% block="Motor Enable"
-    //% weight=90
+    //% weight=89
     export function MotorEnable(): void {
         pins.digitalWitePin(ENABLE_MOTOR,1)
     }
