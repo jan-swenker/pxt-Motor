@@ -21,12 +21,12 @@ enum Dir {
     backward = 0x2,
 }
 
-let PWMA = AnalogPin.P8;
-let AIN1 = DigitalPin.P13;
-let AIN2 = DigitalPin.P12;
-let PWMB = AnalogPin.P16;
-let BIN1 = DigitalPin.P14;
-let BIN2 = DigitalPin.P15;
+let PWMA = AnalogPin.P1;
+let AIN1 = DigitalPin.P12;
+let AIN2 = DigitalPin.P13;
+let PWMB = AnalogPin.P2;
+let BIN1 = DigitalPin.P15;
+let BIN2 = DigitalPin.P16;
 let S0_PIN = AnalogPin.P0;
 let S1_PIN = AnalogPin.P1;
 let S2_PIN = AnalogPin.P2;
