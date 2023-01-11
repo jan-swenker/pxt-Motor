@@ -30,6 +30,7 @@ let BIN2 = DigitalPin.P16;
 let S0_PIN = AnalogPin.P0;
 let S1_PIN = AnalogPin.P1;
 let S2_PIN = AnalogPin.P2;
+let ENABLE_MOTOR = DigitalPin.P14;
 
 //% weight=20 color=#3333FF icon="\uf1b9"
 namespace MotorDriver {
@@ -72,6 +73,13 @@ namespace MotorDriver {
             pins.analogWritePin(PWMA, 0)
         else
             pins.analogWritePin(PWMB, 0)
+    }
+	
+    //% blockId=MotorEnable
+    //% block="Motor Enable"
+    //% weight=90
+    export function MotorEnable(): void {
+        pins.digitalWitePin(ENABLE_MOTOR,1)
     }
 
     //% blockId=ServosTurnZero
