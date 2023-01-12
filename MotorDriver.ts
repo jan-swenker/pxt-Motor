@@ -66,7 +66,7 @@ namespace MotorDriver {
     }
 
     //% blockId=MotorStop
-    //% block="Motor %Motor| Stop"
+    //% block="Motor %m| Stop"
     //% weight=90
     export function MotorStop(m: Motor): void {
         if (m == Motor.A)
