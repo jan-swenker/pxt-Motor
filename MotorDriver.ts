@@ -76,10 +76,13 @@ namespace MotorDriver {
     }
 	
     //% blockId=MotorEnable
-    //% block="Motor Enable"
+    //% block="MotorEnable %ja"
     //% weight=89
-    export function MotorEnable(): void {
-        pins.digitalWitePin(ENABLE, 1);
+    export function MotorEnable(ja: boolean): void {
+        if(ja)
+	    pins.digitalWritePin(ENABLE, 1)
+	else
+	    pins.digitalWritePin(ENABLE, 0)
     }
 
     //% blockId=ServosTurnZero
