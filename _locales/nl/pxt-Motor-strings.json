@@ -1,5 +1,5 @@
 {
-  "Dir.backward|block": "terug",
+  "Dir.backward|block": "achteruit",
   "Dir.forward|block": "vooruit",
   "Motor.A|block": "A",
   "Motor.B|block": "B",
