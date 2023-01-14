@@ -1,7 +1,7 @@
 {
     "name": "pxt-Motor",
     "version": "0.0.0",
-    "description": "DJONijmegen",
+    "description": "DJONijmegen TRU-bord",
     "license": "MIT",
     "dependencies": {
         "core": "*",
