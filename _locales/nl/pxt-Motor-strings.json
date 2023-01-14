@@ -5,6 +5,7 @@
   "Motor.B|block": "B",
   "MotorDriver.MotorRun|block": "Motor %m| richting %index| snelheid %speed",
   "MotorDriver.MotorStop|block": "Motor %m| stop",
+  "MotorDriver.MotorEnable|block": "Gebruik motoren %ja",
   "MotorDriver.ServosTurnFull|block": "Zet servo %s| op 180 graden",
   "MotorDriver.ServosTurnZero|block": "Zet servo %s| op 0 graden",
   "MotorDriver.ServoStop|block": "Servo %s| stop",
