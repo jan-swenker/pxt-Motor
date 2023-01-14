@@ -9,7 +9,8 @@
     },
     "files": [
         "README.md",
-        "MotorDriver.ts"
+        "MotorDriver.ts",
+        "_locales/nl/pxt-Motor-strings.json"
     ],
     "testFiles": [
         "test.ts"
